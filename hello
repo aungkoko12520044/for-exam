@@ -38,3 +38,14 @@ Graph
 Data sometimes contain a relatiionship between pairs of elements which is not necessarily hierarchical in nature.For example,suppose in airline flies connected by lines.
 The data sturcture which reflects this type of relationship is called a graph.
 
+
+
+Next
+Record Type
+Although sturctured type data is superior in the case of element reference and operation,it has a drawback in that it can handle only data of the same type.Therefore,data
+contains data of different types must take the form of record-type data.This record type is also called a structure.
+
+
+
+
+
