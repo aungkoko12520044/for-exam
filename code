@@ -1,0 +1,16 @@
+    int q,m,f,a;
+    cout << "Enter Quiz Scores: ";
+    cin >> q;
+    cin >> m;
+    cout << "Enter Final Scores: ";
+    cin >> f;
+    a = (q+m+f)/3;
+    cout << "Average_Scores is " <<a<<"%\n";
+    if (a >= 80)
+        cout << "\n Grade A \n";
+    else if (a >=70)
+        cout << "\n Grade B \n";
+    else if (a >= 50)
+        cout << "\n Grade C \n";
+    else if (a < 50)
+        cout << "\n Grade F \n";
