@@ -1,0 +1,40 @@
+Data Structures
+Data may be organized in many different ways:the logical or mathematical model of a particular organization of data is called a data structure.
+The choice of a particular data model depends on two considerations.First,it must be rich enough in structure to mirror the actual relationships in the real world.
+On the other hand,the structure should be simple enough that onc can effectively process of the data when necessary.
+
+Array 
+The simplest type of data is called a linear (or one dimension array).
+
+One Dimensional Array
+Linear Array are called one dimensional array beacause each element in such an array is referenced by one subscript.
+
+Two Dimensional Array
+Two Dimensioan Array is a collection of similar data where each element is referenced by two subscripts.
+
+A linear array consisting of the names of the six students.
+Image(STUDENT)
+
+Trees
+Data frequently contain a hierarchical relationship between various elements.The data structure which reflects this relationship is called a rooted tree graph or,simply
+a tree.
+
+Record Structure 
+Although a file may be maintained by means of one or more arrays,a record,where one indicates both the group items and the elementary items,can best be described by means
+of a tree sturucture.For example,an employee personel record may contain the following data items:
+Social Security Number,Name,Address,Age,Salary,Dependents
+
+Consider the Algebraic Expression
+(2x+y)(a-7b)^3
+There are data sturctures other than arrays,linked lists and trees which we shall study.Some of these sturctures are briefly described below.
+
+Stack
+A stack,also called a last-in first-out(LIFO) system,is a linear list in which insertions and deletions can take place only at one end,called the top.
+
+Queue
+A queue,also called a first-in first-out(FIFO) system,is a linear list.
+
+Graph
+Data sometimes contain a relatiionship between pairs of elements which is not necessarily hierarchical in nature.For example,suppose in airline flies connected by lines.
+The data sturcture which reflects this type of relationship is called a graph.
+
