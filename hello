@@ -1,51 +1,43 @@
-Data Structures
-Data may be organized in many different ways:the logical or mathematical model of a particular organization of data is called a data structure.
-The choice of a particular data model depends on two considerations.First,it must be rich enough in structure to mirror the actual relationships in the real world.
-On the other hand,the structure should be simple enough that onc can effectively process of the data when necessary.
-
-Array 
-The simplest type of data is called a linear (or one dimension array).
-
-One Dimensional Array
-Linear Array are called one dimensional array beacause each element in such an array is referenced by one subscript.
-
-Two Dimensional Array
-Two Dimensioan Array is a collection of similar data where each element is referenced by two subscripts.
-
-A linear array consisting of the names of the six students.
-Image(STUDENT)
-
-Trees
-Data frequently contain a hierarchical relationship between various elements.The data structure which reflects this relationship is called a rooted tree graph or,simply
-a tree.
-
-Record Structure 
-Although a file may be maintained by means of one or more arrays,a record,where one indicates both the group items and the elementary items,can best be described by means
-of a tree sturucture.For example,an employee personel record may contain the following data items:
-Social Security Number,Name,Address,Age,Salary,Dependents
-
-Consider the Algebraic Expression
-(2x+y)(a-7b)^3
-There are data sturctures other than arrays,linked lists and trees which we shall study.Some of these sturctures are briefly described below.
-
-Stack
-A stack,also called a last-in first-out(LIFO) system,is a linear list in which insertions and deletions can take place only at one end,called the top.
-
-Queue
-A queue,also called a first-in first-out(FIFO) system,is a linear list.
-
-Graph
-Data sometimes contain a relatiionship between pairs of elements which is not necessarily hierarchical in nature.For example,suppose in airline flies connected by lines.
-The data sturcture which reflects this type of relationship is called a graph.
-
-
-
-Next
-Record Type
-Although sturctured type data is superior in the case of element reference and operation,it has a drawback in that it can handle only data of the same type.Therefore,data
-contains data of different types must take the form of record-type data.This record type is also called a structure.
-
-
-
-
-
+1. Internal design is a process of designing a system based on an external design document.
+2. The purpose of internal design is to determine the functions of software from the viewpoint of the developers.
+3. Internal design is a very important process, since a basic system design plan is formulated, and external design must be implemented in this process.
+4. Internal design is the design for invisible parts. It is the design as seen from a computer specialist's or system developer's point of view.
+5. In the external design stage, a subsystem is partitioned into functions. In the internal design stage, a subsystem is partitioned into programs based on its functions.
+6. Functions are scrutinized based on a new work flowchart (new physical DFD) and a work sub flowchart.
+7. The independence of functions is used as a measure for evaluating the appropriateness of hierarchies and contained functions.
+8. A flowchart is also called a process chart. (Flowcharts are usually used for downstream processes.)
+9. A data flow diagram (DFD) is used to express the flow of task processing or system operation schematically.
+10. A hierarchy plus input process output (HIPO) is a documentation support tool, used as an auxiliary means for supporting the work of design.
+11. A structured chart is used to represent the functions of each program in an easy-to- understand manner.
+12. In a sequential organization file, records are sequentially stored in consecutive positions on a storage medium.
+13. Direct organization files can only be used on direct access storage devices (DASD), such as magnetic disks.
+14. A file that allows reference to a data storage position index as well as the reading of specific data is called are indexed sequential file.
+15. A virtual storage organization file can be used with an operating system that has a virtual memory function.
+16. In the external design stage, the screen and report are designed to allow a user to recognize the image of screen and output.
+17. Input data is past a specified input time limit or some data is missing. All these problems are considered input mistakes.
+18. Screen design is one of the important factors that a user considers to determine whether a system is well or poorly designed, as explained in sections dealing with
+external design.
+19. The GUI uses intuitive icons (pictorial symbols), pop-up menus, dropdown menus, etc., to allow tasks to be performed.
+20. The GUI functions are built into the operating system of a personal
+computer.
+21. All applications used in the GUI environment (Windows, etc.) are eventdriven programs.
+22. On the GUI screen, a preview function that allows data to be shown in a printout format should be supported. Also, a search result display function should be supported. 23. One method of designing the screen layout is drawing the screen layout on a special- purpose form.
+24. A user inputs data, has a computer process it, and outputs it on the display or on paper to check the results of data processing.
+25. A subprogram library has long been known as the scientific subroutine package (SSP), in the field of scientific and engineering computation.
+26. Internal design is an important design process since it is responsible for satisfying all user requirements defined by external design.
+27. In the internal design policy, an overview of the system development policy determined before the start of design work is described.
+28. HIPO, DFD, flowchart, bubble chart, etc., are referred to as documentation techniques.
+29. In the system overview, the new system flow (new physical DFD) created by external design is described.
+30. In the program functions, details of divided programs are described using the input process output (IPO) diagram.
+31. A review conducted in the design stage of a software development process is called a design review.
+32. A design review is mainly conducted on a system design and a program design process.
+33. Detailed screen design or detailed report design, is the work of creating an interface between a system and a user.
+34. Program design is an important process as it is required to do the tasks of programming smoothly.
+35. The purpose of program design is to design the internal structure of a program. In program design, the structured design method is used to partition a program into modules.
+36. Program design documents are created based on various data and materials prepared in the program de stage.
+37. Programming is to describe (code) in a programming language a procedure (algorithm) defined by program design.
+38. Procedural programming is the paradigm of procedural programming languages which describes problem solutions in terms of a series of procedures. C and COBOL are representative procedural programming languages.
+39. Logic programming is the paradigm of a logic programming language that describes a problem solution in terms of logical declarations. Prolog is a representative logic programming language.
+40. In the waterfall model, unit test, integration test, system test and operation test are conducted in that order.
+41. A unit test is conducted for each module, the smallest unit dealt with in system development.
+42. In the programming stage of system development, a program has a hierarchical structure comprised of several modules.
