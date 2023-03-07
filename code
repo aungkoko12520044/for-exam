@@ -1,16 +1,38 @@
-    int q,m,f,a;
-    cout << "Enter Quiz Scores: ";
-    cin >> q;
-    cin >> m;
-    cout << "Enter Final Scores: ";
-    cin >> f;
-    a = (q+m+f)/3;
-    cout << "Average_Scores is " <<a<<"%\n";
-    if (a >= 80)
-        cout << "\n Grade A \n";
-    else if (a >=70)
-        cout << "\n Grade B \n";
-    else if (a >= 50)
-        cout << "\n Grade C \n";
-    else if (a < 50)
-        cout << "\n Grade F \n";
+(1) Purpose of internal design
+There are two purposes of internal design:
+(1) Determining the functions that software should perform from the standpoint of developers
+The internal design process in all system development processes is where a system is first determined from the standpoint of developers. Because determined functions have a great influence not only on program design and testing in the next process, but also on efficiency when a system
+becomes operational, they must be determined very carefully.
+(2) Ensuring the independence of each phase, so that
+one phase can be clearly distinguished from another
+The waterfall model has long been used as a means of system development. Having been refined and improved, it is the methodology still being used. Although some overlapping may occur between adjacent phases, each phase must be basically independent.
+(2) Points to note when doing the work of internal design
+In doing the work of internal design, "why", "what" and "how" must always be kept in mind.
+(1) Why: Defining subsystems
+Why each sutsystem was divided in external design must be clarified.
+(2) What: Defining the functions of subsystems What functions each sutsytem performs in the overall system flow, must be examined form the viewpoint of relationships
+between subsystems.
+(3) How: Defining details of subsystems in a program How input conditions, functional
+processing, and output conditions for the functioning of subsystems can be
+implemented in a program must be
+clarified.
+
+Purpose of program design
+
+The purpose of internal design is to design the internal structure of a program.In program design,the structured design method is used to partition a program into modules.
+By partitioning a program into modules and clarifying the relationships among modules, the structure of a program can be made clearer and maintainance can be made easier.
+
+work units in the system development 
+
+Diagram!
+
+Modules include the following:
+·
+• Compilation units in the high-level languages Functional items of a program
+· Menu units item
+Source program that has 10 to 300 statements
+• Tasks (processes) handled under task (process) management
+• Load module units
+• Objects used in the object-oriented development
+Graphical user interface (GUI) event units
+A module can be defined as one single, quantitaviely or logically coherent unit. This definition should be understood only as criterion.
