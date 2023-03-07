@@ -36,3 +36,12 @@ Source program that has 10 to 300 statements
 • Objects used in the object-oriented development
 Graphical user interface (GUI) event units
 A module can be defined as one single, quantitaviely or logically coherent unit. This definition should be understood only as criterion.
+
+3. Concept of creation and reuse of parts
+In the object-oriented concept, the unit of a software part is an object. The objects are systematized in a class library, and the independence of object is realized through encapsulation. Therefore, the object-oriented concept can be said to be suitable for reuse of work products.
+4. Use of software packages
+(1)Subprogram library
+A subprogram library has long been known as the scientific subroutine package (SSP), in the field of scientific and engineering computation. Complex subroutines and functions were not individually developed by the users, but systematized as libraries by manufactures, universities and research institutes and made availabel to users.
+This concept has been applied to the development of business application programs, and useful subprograms are offered as packages to unspecified users with or without charge. By using the packages, substantial reductions in the man-hours needed to develop software can be achieved. A business application system, however, contains classified matter or proprietary know-how. Therefore, a company organizes the subprograms developed based on internal standards, into a library and allows them to be reused only for internal use.
+(2) Class library
+In the object-oriented development, objects are encapsulated so that changes to an object does not affect surrounding objects. The independence of each object can be maintained. Therefore, objects can be reused as parts more easily than parts in a program developed using procedural language. In the case of the Java language, for example, frequently used objects are collected into a class library. By utilizing a class library, the time and labor needed to develop a program can be saved.
